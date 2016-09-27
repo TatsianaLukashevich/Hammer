@@ -1,0 +1,37 @@
+﻿Build started 2016-05-30 15:16:41.
+     1>Project "C:\Users\Lukaszewicz\Documents\Visual Studio 2013\Projects\GKOM\GKOM\GKOM.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt gkom.cpp
+         gkom.cpp
+     1>c:\users\lukaszewicz\documents\visual studio 2013\projects\gkom\gkom\gkom.cpp(75): warning C4244: "=" : konwersja z "double" do "GLfloat", możliwa utrata danych
+     1>c:\users\lukaszewicz\documents\visual studio 2013\projects\gkom\gkom\gkom.cpp(76): warning C4244: "=" : konwersja z "double" do "GLfloat", możliwa utrata danych
+     1>c:\users\lukaszewicz\documents\visual studio 2013\projects\gkom\gkom\gkom.cpp(80): warning C4244: "inicjowanie" : konwersja z "double" do "GLfloat", możliwa utrata danych
+     1>c:\users\lukaszewicz\documents\visual studio 2013\projects\gkom\gkom\gkom.cpp(81): warning C4244: "inicjowanie" : konwersja z "double" do "GLfloat", możliwa utrata danych
+     1>c:\users\lukaszewicz\documents\visual studio 2013\projects\gkom\gkom\gkom.cpp(83): warning C4244: "=" : konwersja z "double" do "GLfloat", możliwa utrata danych
+     1>c:\users\lukaszewicz\documents\visual studio 2013\projects\gkom\gkom\gkom.cpp(84): warning C4244: "=" : konwersja z "double" do "GLfloat", możliwa utrata danych
+     1>c:\users\lukaszewicz\documents\visual studio 2013\projects\gkom\gkom\gkom.cpp(305): warning C4305: "inicjowanie" : obcięcie z "double" do "GLfloat"
+     1>c:\users\lukaszewicz\documents\visual studio 2013\projects\gkom\gkom\gkom.cpp(459): warning C4305: "inicjowanie" : obcięcie z "double" do "GLfloat"
+     1>c:\users\lukaszewicz\documents\visual studio 2013\projects\gkom\gkom\gkom.cpp(611): warning C4305: "inicjowanie" : obcięcie z "double" do "GLfloat"
+     1>c:\users\lukaszewicz\documents\visual studio 2013\projects\gkom\gkom\gkom.cpp(766): warning C4244: "inicjowanie" : konwersja z "double" do "GLfloat", możliwa utrata danych
+     1>c:\users\lukaszewicz\documents\visual studio 2013\projects\gkom\gkom\gkom.cpp(788): warning C4305: "argument" : obcięcie z "double" do "GLfloat"
+     1>c:\users\lukaszewicz\documents\visual studio 2013\projects\gkom\gkom\gkom.cpp(789): warning C4305: "argument" : obcięcie z "double" do "GLfloat"
+     1>c:\users\lukaszewicz\documents\visual studio 2013\projects\gkom\gkom\gkom.cpp(796): warning C4305: "argument" : obcięcie z "double" do "GLfloat"
+     1>c:\users\lukaszewicz\documents\visual studio 2013\projects\gkom\gkom\gkom.cpp(797): warning C4305: "argument" : obcięcie z "double" do "GLfloat"
+     1>c:\users\lukaszewicz\documents\visual studio 2013\projects\gkom\gkom\gkom.cpp(804): warning C4305: "argument" : obcięcie z "double" do "GLfloat"
+     1>c:\users\lukaszewicz\documents\visual studio 2013\projects\gkom\gkom\gkom.cpp(805): warning C4305: "argument" : obcięcie z "double" do "GLfloat"
+     1>c:\users\lukaszewicz\documents\visual studio 2013\projects\gkom\gkom\gkom.cpp(854): warning C4244: "=" : konwersja z "float" do "int", możliwa utrata danych
+     1>c:\users\lukaszewicz\documents\visual studio 2013\projects\gkom\gkom\gkom.cpp(859): warning C4244: "=" : konwersja z "float" do "int", możliwa utrata danych
+     1>c:\users\lukaszewicz\documents\visual studio 2013\projects\gkom\gkom\gkom.cpp(864): warning C4244: "=" : konwersja z "float" do "int", możliwa utrata danych
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lukaszewicz\Documents\Visual Studio 2013\Projects\GKOM\Debug\GKOM.exe" /INCREMENTAL /NOLOGO opengl32.lib glfw3.lib glew32s.lib soil.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:msvcrt.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Lukaszewicz\Documents\Visual Studio 2013\Projects\GKOM\Debug\GKOM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Lukaszewicz\Documents\Visual Studio 2013\Projects\GKOM\Debug\GKOM.lib" /MACHINE:X86 Debug\gkom.obj
+         soil.lib(SOIL.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>gkom.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+         Generating code
+         Finished generating code
+         GKOM.vcxproj -> C:\Users\Lukaszewicz\Documents\Visual Studio 2013\Projects\GKOM\Debug\GKOM.exe
+     1>Done Building Project "C:\Users\Lukaszewicz\Documents\Visual Studio 2013\Projects\GKOM\GKOM\GKOM.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.76
